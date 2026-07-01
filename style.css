@@ -113,6 +113,18 @@ label{
     height: 20px;
     cursor: pointer;
 }
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #E71B32;
+    position: relative;
+    bottom: 30px;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
